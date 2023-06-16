@@ -8,11 +8,10 @@
 
 int main(void)
 {
-printf("The size of a char: %zu byte(s)\n", sizeof(char));
-printf("The size of an int: %zu byte(s)\n", sizeof(int));
-printf("The size of long int: %zu byte(s)\n", sizeof(long int));
-printf("The size of long long int: %zu byte(s)\n", sizeof(long long int));
-printf("The size of float: %zu byte(s)\n", sizeof(float));
-	
+printf("The size of a char: %zu byte(s)\n", typeof(char));
+printf("The size of an int: %zu byte(s)\n", typeof(int));
+printf("The size of long int: %zu byte(s)\n", typeof(long int));
+printf("The size of long long int: %zu byte(s)\n", typeof(long long int));
+printf("The size of float: %zu byte(s)\n", typ:of(float));
 return (0);
 }
