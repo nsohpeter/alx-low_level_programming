@@ -2,7 +2,8 @@
 
 /**
  * main - Entry point
- *  a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
+ * a program that prints the alphabet in lowercase, and then in uppercase,
+ * followed by a new line.
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -16,6 +17,6 @@ for (caps = 'A'; caps <= 'Z'; caps++)
 {
 putchar(caps);
 }
- putchar('\n');
+putchar('\n');
 return (0);
 }
