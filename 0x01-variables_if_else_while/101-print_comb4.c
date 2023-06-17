@@ -2,7 +2,8 @@
 
 /**
  * main - Entry point
- * a program that prints all possible different combinations of three digits., * followed by a new line
+ * a program that prints all possible different combinations of three digits,
+ * followed by a new line
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -28,7 +29,7 @@ putchar(' ');
 }
 }
 }
- putchar('\n');
+putchar('\n');
 
 return (0);
 }
