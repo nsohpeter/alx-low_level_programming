@@ -12,7 +12,7 @@ char ch;
 int i = 1;
 
 
-while (i < 10)
+while (i <= 10)
 {
 ch = 'a';
 while (ch <= 'z')
