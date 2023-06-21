@@ -6,22 +6,28 @@
 * Return: Always 0.
 */
 
-
 int main(void)
 {
-int i;
-unsigned long long fib1 = 1, fib2 = 2, fib;
+int count;
+unsigned long fib1 = 0, fib2 = 1, sum;
 
-printf("%llu, %llu", fib1, fib2);
+for (count = 0; count < 50; count++)
+{
+sum = fib1 + fib2;
+printf("%lu", sum);
 
-for (i = 3; i <= 50; i++) {
-fib = fib1 + fib2;
-printf(", %llu", fib);
 fib1 = fib2;
-fib2 = fib;
-}
+fib2 = sum;
 
+if (count == 49)
+{
 printf("\n");
+}
+else
+{
+printf(", ");
+}
+}
 
 return (0);
 }
