@@ -1,5 +1,13 @@
 #include <stdio.h>
 
+/**
+ * main - the program prints a[2] = 98,
+ * follow by a new line.
+ *
+ * Return: Always 0.
+ */
+
+
 int main(void)
 {
 int n;
